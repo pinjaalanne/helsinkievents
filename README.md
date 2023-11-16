@@ -2,7 +2,8 @@
 
 ## Here are the steps:
 
-<<<<<<< HEAD
+We are creating an app that lets you see and browse events in Helsinki.
+
 ## Our aim is that our app will:
 
 - Show local events in Helsinki.
