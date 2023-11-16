@@ -2,6 +2,7 @@
 
 ## Here are the steps:
 
+<<<<<<< HEAD
 ## Our aim is that our app will:
 
 - Show local events in Helsinki.
