@@ -1,5 +1,7 @@
 # Helsinki Events App
 
+## Here are the steps:
+
 We are creating an app that lets you see and browse events in Helsinki.
 
 ## Our aim is that our app will:
