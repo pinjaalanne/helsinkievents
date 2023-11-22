@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import Home from './routes/Home.jsx';
-import Gallery from './routes/Gallery.jsx';
+import Gallery from './routes/Gallery';
 import LogIn from './routes/LogIn';
 import ErrorPage from './routes/ErrorPage'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'

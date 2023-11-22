@@ -7,7 +7,6 @@ import image4 from './assets/nature.jpg';
 import image5 from './assets/rigatta.jpg';
 import image6 from './assets/sibelius.jpg';
 import image7 from './assets/station.jpg';
-import image8 from './assets/sea.jpg';
 
 function Gallery() {
     return (
