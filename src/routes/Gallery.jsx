@@ -1,12 +1,12 @@
 import './Gallery.css';
-import image from './assets/archipelago.jpg';
-import image1 from './assets/center.jpg';
-import image2 from './assets/electric-bus.jpg';
-import image3 from './assets/helsinki-cathedral.jpg';
-import image4 from './assets/nature.jpg';
-import image5 from './assets/rigatta.jpg';
-import image6 from './assets/sibelius.jpg';
-import image7 from './assets/station.jpg';
+import image from '../assets/archipelago.jpg';
+import image1 from '../assets/center.jpg';
+import image2 from '../assets/electric-bus.jpg';
+import image3 from '../assets/helsinki-cathedral.jpg';
+import image4 from '../assets/nature.jpg';
+import image5 from '../assets/rigatta.jpg';
+import image6 from '../assets/sibelius.jpg';
+import image7 from '../assets/station.jpg';
 
 function Gallery() {
     return (

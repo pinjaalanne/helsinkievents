@@ -36,6 +36,7 @@ a.active {
 
 header,
 footer {
+  bottom: 0;
   padding: 1.5rem;
   display: flex;
   justify-content: center;
@@ -44,7 +45,7 @@ footer {
 }
 
 footer {
-  position: absolute;
+  position: absolute;  
   left: 0;
   right: 0;
   bottom: 0;
