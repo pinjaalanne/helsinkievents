@@ -6,6 +6,8 @@ import LogIn from './routes/LogIn';
 import ErrorPage from './routes/ErrorPage'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './routes/Root'
+import Contact from './routes/Contact';
+import SignUp from './routes/LogIn copy';
 
 function App() {
 
@@ -15,7 +17,9 @@ function App() {
       errorElement: <ErrorPage />,
       children: [
         { path: '/', element: < Home /> },
+        { path: '/contact', element: <Contact /> },
         { path: '/login', element: <LogIn /> },
+        { path: '/signup', element: <SignUp /> },
         { path: '/gallery', element: <Gallery /> }
       ]
     }

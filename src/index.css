@@ -9,8 +9,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #141538;
+  color: #141538;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -36,8 +36,7 @@ a.active {
 
 header,
 footer {
-  bottom: 0;
-  padding: 1.5rem;
+  padding: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +44,7 @@ footer {
 }
 
 footer {
-  position: absolute;  
+  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
@@ -54,17 +53,26 @@ footer {
 }
 
 header {
+  background-color: #141538;
+  color: rgba(255, 255, 255, 0.87);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-bottom: 5rem;
   justify-content: space-between;
 }
 
 body {
   place-items: center;
+  position: relative;
   min-width: 320px;
   min-height: 100vh;
 }
 
 main {
-  min-height: calc(100vh - 220px);
+  padding: 7rem;
+  min-height: calc(100vh - 180px);
 }
 
 h1 {
@@ -87,7 +95,6 @@ h3 {
 nav ul li {
   list-style: none;
   display: inline-block;
-  text-transform: uppercase;
   font-size: 1.2em;
   padding: 1rem;
   margin: 1rem;
@@ -99,7 +106,7 @@ input {
   width: 180px;
   font-family: inherit;
   padding: 0.3rem;
-  background: white;
+  background: rgb(223, 219, 219);
   color: #141538;
   border-radius: 2px;
 }
@@ -119,6 +126,7 @@ input {
 }
 
 .card {
+  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -127,7 +135,7 @@ input {
   width: 200px;
   background-color: #7180a5;
   border-radius: 3px;
-  box-shadow: 1.5px 1.5px 3px rgba(43, 3, 36, 0.807);
+  box-shadow: 1.5px 1.5px 3px rgba(39, 35, 38, 0.807);
   padding: 2rem;
   margin: 1.5rem;
   position: relative;
