@@ -5,8 +5,7 @@
 .placesCard{
     width: 700px;
     height: 400px;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 .middle{
     transform: translate(-50%, -50%);
