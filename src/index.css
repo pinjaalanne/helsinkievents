@@ -18,6 +18,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 a {
   font-weight: 500;
@@ -44,7 +50,7 @@ footer {
 }
 
 footer {
-  position: absolute;
+  /*position: absolute;*/
   left: 0;
   right: 0;
   bottom: 0;
@@ -177,3 +183,4 @@ input {
     background-color: #f9f9f9;
   }
 } */
+
