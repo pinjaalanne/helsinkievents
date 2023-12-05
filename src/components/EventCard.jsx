@@ -1,6 +1,7 @@
 function EventCard() {
     return (
         <>
+
             <div className="card">
                 <h3>Event name</h3>
                 <p>Event date</p>
