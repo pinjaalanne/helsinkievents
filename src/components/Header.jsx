@@ -4,7 +4,7 @@ import bear from "../assets/Logo.svg";
 function Header() {
   return (
     <header>
-      <img className="bear" src={bear} alt="Logo" />
+      <NavLink to="/"><img className="bear" src={bear} alt="Logo" /></NavLink>
       <nav>
         <ul>
           <li>
