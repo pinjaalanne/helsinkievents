@@ -258,6 +258,13 @@ input[name="r"]{
 #r5:checked ~ .s1{
   margin-left: -80%;
 }
+
+.bear {
+
+  height: 25rem;
+  width: 25rem;
+  margin-top: 1rem;
+}
 /* 
 @media (max-width: 820px){
   .placesCard{

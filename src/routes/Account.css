@@ -1,0 +1,94 @@
+:root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    margin: 50px auto;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.formwrap {
+
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 4.5rem;
+    
+}
+
+.formwrap h1,
+.formwrap p {
+
+    margin-bottom: 20px;
+
+    
+}
+
+.form-group {
+    margin: 5px 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #474747;
+    text-align: left;
+
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a7a7a7;
+    margin-top: 1rem;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.formwrap button {
+
+    width: 80%;
+    background: #141538;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    
+    
+}
+
+.formwrap .bottom-text {
+
+    font-size: 12px;
+}
+
+.formwrap .bottom-text a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: rgb(228, 217, 131);
+
+}
+
+.formwrap .bottom-text a {
+
+    color: blue;
+}
