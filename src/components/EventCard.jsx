@@ -1,26 +1,39 @@
+import img from '../assets/center.jpg'
+
 function EventCard() {
     return (
         <>
-
-            <div className="card">
-                <h3>Event name</h3>
-                <p>Event date</p>
-                <button className="morebtn">Read more</button>
-            </div >
-            <div className="card">
-                <h3>Event name</h3>
-                <p>Event date</p>
-                <button className="morebtn">Read more</button>
-            </div >
-            <div className="card">
-                <h3>Event name</h3>
-                <p>Event date</p>
-                <button className="morebtn">Read more</button>
-            </div >
-            <div className="card">
-                <h3>Event name</h3>
-                <p>Event date</p>
-                <button className="morebtn">Read more</button>
+            <div className="cards">
+                <div className="card">
+                    <img className="eventimg" src={img} alt="no img"></img>
+                    <h3 className="eventheader">Event name</h3>
+                    <p className="eventtext">Brief description, click to view more...</p>
+                </div >
+                <div className="card">
+                    <img className="eventimg" src={img} alt="no img"></img>
+                    <h3 className="eventheader">Event name</h3>
+                    <p className="eventtext">Brief description, click to view more...</p>
+                </div >
+                <div className="card">
+                    <img className="eventimg" src={img} alt="no img"></img>
+                    <h3 className="eventheader">Event name</h3>
+                    <p className="eventtext">Brief description, click to view more...</p>
+                </div >
+                <div className="card">
+                    <img className="eventimg" src={img} alt="no img"></img>
+                    <h3 className="eventheader">Event name</h3>
+                    <p className="eventtext">Brief description, click to view more...</p>
+                </div >
+                <div className="card">
+                    <img className="eventimg" src={img} alt="no img"></img>
+                    <h3 className="eventheader">Event name</h3>
+                    <p className="eventtext">Brief description, click to view more...</p>
+                </div >
+                <div className="card">
+                    <img className="eventimg" src={img} alt="no img"></img>
+                    <h3 className="eventheader">Event name</h3>
+                    <p className="eventtext">Brief description, click to view more...</p>
+                </div >
             </div >
         </>
     );
