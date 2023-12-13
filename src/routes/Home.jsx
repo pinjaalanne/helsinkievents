@@ -1,7 +1,21 @@
+import { useState, useEffect } from 'react';
+import axios from "axios";
 import EventCard from '../components/EventCard'
 import PlacesCard from '../components/PlacesCard'
 
 function Home() {
+    const url = 'https://api.hel.fi/linkedevents/v1/event';
+    const [events, setEvents] = useState([]);
+    console.log('events', events);
+
+    useEffect(() => {
+        axios.get('https://api.hel.fi/linkedevents/v1/event')
+            .then((res) => {
+                console.log(res.data)
+                setEvents(res.data.data)
+            }).catch((error) => console.log(error))
+    }, []);
+
     return (
         <>
             <main className="box">
@@ -12,7 +26,7 @@ function Home() {
                     <button className="searchbtn">Check Events</button>
                 </div>
                 <div className="cards">
-                    <EventCard />
+                    {events.map(event => <EventCard key={event.id} {...event} />)}
                 </div>
                 <div><h2 className="placestext">Don't Miss</h2></div>
                 <div className="placesContainer">
@@ -24,4 +38,4 @@ function Home() {
     );
 }
 
-export default Home
+export default Home;
