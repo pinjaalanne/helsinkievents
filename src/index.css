@@ -136,7 +136,8 @@ nav ul li {
   border-radius: 10px;
 }
 
-input {
+input,
+.message {
   margin: 1rem;
   border: none;
   width: 220px;

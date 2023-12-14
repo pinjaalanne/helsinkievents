@@ -6,7 +6,6 @@ function SignUp() {
       <div className="container">
         <div className="formwrap">
           <h3>Create account</h3>
-
           <form>
             <div className="form-group">
               <label htmlFor="firstname">First name:</label>
@@ -31,7 +30,6 @@ function SignUp() {
             </div>
             <button type="submit">Sign up</button>
           </form>
-
           <p className="bottom-text">
             By clicking the Sign up button, you agree to our
             <a href="a"> Terms & Conditions</a> and{" "}
