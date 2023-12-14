@@ -1,18 +1,15 @@
-import img from '../assets/center.jpg'
-
-function EventCard(props) {
-
+function EventCard({ event }) {
     return (
-        <>
-            <div className="cards">
-                <div className="card">
-                    <img className="eventimg" src={props.data.images.url} alt='no img'></img>
-                    <h3 className="eventheader">{props.data.name}</h3>
-                    <p className="eventtext">Brief description, click to view more...</p>
-
+        <div className="card">
+            <div className="card-wrap">
+                <img className="eventimg" src={event.images[0].url} alt='no img'></img>
+                <h3 className="eventheader">{event.name.fi}</h3>
+                <div className="eventtext-wrap">
+                    <p className="eventtext">{event.short_description.fi}</p>
+                    <p className="starttime">{event.start_time}</p>
                 </div >
-            </div >
-        </>
+            </div>
+        </div>
     );
 }
 

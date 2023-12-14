@@ -17,7 +17,7 @@ function Header() {
             <NavLink to="/login">Log in</NavLink>
           </li>
           <li>
-            <NavLink to="/signup">Sign Up</NavLink>
+            <NavLink className="signup" to="/signup">Sign Up</NavLink>
           </li>
           <li>
             <NavLink to="/gallery">Gallery</NavLink>
