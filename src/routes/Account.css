@@ -31,6 +31,10 @@
     margin-bottom: 20px;
 }
 
+.formwrap h3 {
+    margin: 0.7rem;
+}
+
 .form-group {
     margin: 5px 0;
 }

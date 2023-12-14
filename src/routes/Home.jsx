@@ -34,7 +34,7 @@ function Home() {
                 {/* <div><h2 className="placestext">Don't Miss</h2></div> */}
                 <div className="searchwrap">
                     <h3>Search for an event below</h3>
-                    <input type="text" onChange={searchHandler} id="search" placeholder="Search an event"></input>
+                    <input type="text" onChange={searchHandler} id="search" placeholder="Search by date yyyy/mm/dd"></input>
                 </div>
                 <div className="cards">
                     {events

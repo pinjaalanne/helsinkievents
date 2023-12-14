@@ -2,7 +2,7 @@ function Footer() {
     return (
         <>
             <footer>
-                <h2>Footer here</h2>
+                <p>Copyright Helsinki Events 2023</p>
             </footer>
         </>
     );
