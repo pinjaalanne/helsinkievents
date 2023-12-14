@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import axios from "axios";
 import EventCard from '../components/EventCard'
 import PlacesCard from '../components/PlacesCard'
-import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 
 function Home() {

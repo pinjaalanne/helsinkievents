@@ -24,15 +24,11 @@
     border-radius: 5px;
     text-align: center;
     margin-top: 4.5rem;
-    
 }
 
 .formwrap h1,
 .formwrap p {
-
     margin-bottom: 20px;
-
-    
 }
 
 .form-group {
@@ -45,7 +41,6 @@
     margin-bottom: 5px;
     color: #474747;
     text-align: left;
-
 }
 
 .form-group input {
@@ -59,7 +54,6 @@
 }
 
 .formwrap button {
-
     width: 80%;
     background: #141538;
     color: white;
@@ -70,12 +64,10 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 5px;
-    
-    
+    cursor: pointer;
 }
 
 .formwrap .bottom-text {
-
     font-size: 12px;
 }
 
@@ -89,6 +81,5 @@ button:hover {
 }
 
 .formwrap .bottom-text a {
-
     color: blue;
 }
