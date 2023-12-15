@@ -10,6 +10,7 @@ import Contact from "./routes/Contact";
 import SignUp from "./routes/SignUp";
 
 function App() {
+
   const router = createBrowserRouter([
     {
       path: "/",
