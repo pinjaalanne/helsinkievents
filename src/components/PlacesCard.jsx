@@ -21,13 +21,13 @@ export default function PlacesCard() {
                     <div className="slide one s1">
                         <img src={image1} alt='Cathedral' className="imageSlide" />
                         <div className='image-date'>
-                            <h2>Cathedral</h2>
+                            <h2>Helsinki Cathedral</h2>
                             <a href="https://helsingintuomiokirkko.fi" target="_blank">See more</a></div>
                     </div>
                     <div className="slide two">
                         <img src={image2} alt='Kamppi' className="imageSlide" />
                         <div className='image-date'>
-                            <h2>Kamppi</h2>
+                            <h2>Kamppi Chapel</h2>
                             <a href="https://www.kampinkappeli.fi/" target="_blank">See more</a></div>
 
                     </div>

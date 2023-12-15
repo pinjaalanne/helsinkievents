@@ -3,6 +3,7 @@ import axios from "axios";
 import EventCard from '../components/EventCard'
 import PlacesCard from '../components/PlacesCard'
 import 'react-datepicker/dist/react-datepicker.css'
+import BackToTop from "../components/BackToTop";
 
 function Home() {
     const [events, setEvents] = useState([]);
@@ -40,7 +41,9 @@ function Home() {
                     {events
                         .filter((event) => event.start_time.toLowerCase().includes(search.toLowerCase()))
                         .map((event) => <EventCard key={event.id} event={event} />)}
+
                 </div>
+                <BackToTop />
             </main >
         </>
     );
