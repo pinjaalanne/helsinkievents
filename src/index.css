@@ -196,6 +196,12 @@ input,
   filter: saturate(90%);
   position: relative;
 }
+.bear {
+  border: none;
+  height: 25rem;
+  width: 25rem;
+  margin-top: 1rem;
+}
 
 /* .card-wrap {
   background-color: #131540;
@@ -383,13 +389,6 @@ input[name="r"] {
 
 #r5:checked~.s1 {
   margin-left: -80%;
-}
-
-.bear {
-  border: none;
-  height: 25rem;
-  width: 25rem;
-  margin-top: 1rem;
 }
 .topBtn{
   position: fixed;
