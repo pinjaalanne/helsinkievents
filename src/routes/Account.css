@@ -69,6 +69,7 @@
     margin-bottom: 20px;
     margin-top: 5px;
     cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(133, 112, 69, 0.807);
 }
 
 .formwrap .bottom-text {
@@ -80,8 +81,7 @@
 }
 
 button:hover {
-    background-color: rgb(228, 217, 131);
-
+    background-color: #fab914d2;
 }
 
 .formwrap .bottom-text a {
