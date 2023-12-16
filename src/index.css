@@ -204,13 +204,6 @@ input,
   margin-top: 1rem;
 }
 
-/* .card-wrap {
-  background-color: #131540;
-  box-shadow: 1.5px 1.5px 3px rgba(39, 35, 38, 0.807);
-  padding: 1rem;
-  border-radius: 5px;
-} */
-
 .card:hover {
   filter: none;
   cursor: pointer;
@@ -277,37 +270,6 @@ input,
   font-weight: 700;
 }
 
-/* .morebtn {
-  border: none;
-  border-radius: 5px;
-  background: #141538;
-  color: white;
-  font-family: inherit;
-  padding: 0.6rem;
-  position: absolute;
-  bottom: 1rem;
-  cursor: pointer;
-}
-
-.morebtn:hover {
-  text-decoration: underline;
-} */
-
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
-} */
 /* PlacesCard CSS */
 .placesContainer {
   display: flex;
