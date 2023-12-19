@@ -1,8 +1,8 @@
-function EventCard({ event }) {
+function EventCard({ event, onclick }) {
 
     return (
         <div className="card">
-            <button className="closebtn">x</button>
+            <button className="closebtn" onClick={onclick}>x</button>
             <h3 className="eventheader">{event.name.fi}</h3>
             <img className="eventimg" src={event.images[0].url} alt='no img'></img>
             <div className="eventtext-wrap">

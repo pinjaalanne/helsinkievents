@@ -13,6 +13,13 @@ function Home() {
         setSearch(e.target.value);
         console.log(e.target.value);
     }
+    function closeHandler(id) {
+        console.log(id);
+        const newArray = events.filter((element) => element.id !== id); // newArray is everything but not that id
+        setEvents(newArray);
+
+    }
+
 
     console.log('events', events);
 
@@ -40,7 +47,7 @@ function Home() {
                 <div className="cards">
                     {events
                         .filter((event) => event.start_time.toLowerCase().includes(search.toLowerCase()))
-                        .map((event) => <EventCard key={event.id} event={event} />)}
+                        .map((event) => <EventCard key={event.id} event={event} onclick={() => closeHandler(event.id)} />)}
 
                 </div>
                 <BackToTop />
