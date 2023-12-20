@@ -37,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+li a:hover {
   color: #ecc259e7;
 }
 
@@ -119,21 +119,46 @@ nav ul li {
   margin: 1rem;
 }
 
+.bear {
+  border: none;
+  height: 25rem;
+  width: 25rem;
+  margin-top: 1rem;
+}
+
 .welcometext {
   font-size: 2em;
-  margin-bottom: 2rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-transform: uppercase;
   font-weight: 800;
+}
+
+.welcometextp {
+  margin: 1rem 0 1.2rem;
+}
+
+.about {
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 0.9rem;
+  color: #131540;
+  font-weight: 600;
+  background: #fab814;
+  padding: 0.7rem;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 2px rgba(149, 149, 136, 0.807);
+}
+
+.about:hover {
+  text-decoration: underline;
 }
 
 .searchwrap {
   background: #131540;
   color: white;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 0.8rem;
   width: 450px;
   border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(107, 107, 97, 0.807);
 }
 
 input,
@@ -146,6 +171,11 @@ input,
   background: white;
   color: #141538;
   border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #9c9dd8eb;
 }
 
 ::placeholder {
@@ -176,13 +206,19 @@ input,
   color: #141538;
 }
 
+.abouttext {
+  margin: 2rem 12rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .card {
@@ -191,17 +227,10 @@ input,
   height: auto;
   background-color: #DCECFF;
   margin: 1rem 2rem;
-  border-radius: 5px;
-  box-shadow: 1px 1px 2px rgba(82, 74, 80, 0.807);
-  filter: saturate(90%);
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 2px rgba(152, 138, 148, 0.712);
+  filter: saturate(80%);
   position: relative;
-}
-
-.bear {
-  border: none;
-  height: 25rem;
-  width: 25rem;
-  margin-top: 1rem;
 }
 
 .card:hover {
@@ -221,45 +250,48 @@ input,
   font-family: inherit;
   padding: 0.4rem 0.6rem;
   cursor: pointer;
-  box-shadow: 1px 1px 2px rgba(133, 112, 69, 0.807);
+  box-shadow: 0.5px 0.5px 1px rgba(133, 112, 69, 0.807);
 }
 
 .closebtn:hover {
-  background-color: #fab914cb;
+  background-color: #141538;
+  color: #fab814;
 }
 
 .eventimg {
   max-height: 300px;
-  margin-bottom: 1rem;
   width: auto;
+  border-radius: 3px;
 }
 
 .eventtext-wrap {
   background-color: white;
   color: black;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 0.5rem 4rem;
+  margin-top: 0.4rem;
 }
 
 .eventheader {
   margin: 0.7rem;
-  font-size: 1.3rem;
+  padding: 0.2rem;
+  font-size: 1rem;
   font-weight: 800;
   background: white;
   color: #131540;
   border-radius: 10px;
   text-transform: uppercase;
-  text-shadow: 1px 1px 1px #454875cf;
+  text-shadow: 0.5px 0.5px 1px #8284a5cf;
 }
 
 .eventtext {
   margin: 0.3rem 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
 .starttime {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
@@ -379,5 +411,8 @@ input[name="r"] {
 .topBtn:hover {
   background-color: #fab814;
   color: #141538;
+}
 
+.footertext {
+  font-size: 0.8rem;
 }
