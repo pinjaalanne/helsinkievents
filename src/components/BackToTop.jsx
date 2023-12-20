@@ -25,7 +25,7 @@ function BackToTop() {
         <div>
             {backToTop && (
                 <button onClick={scrollUp} className="topBtn">
-                    Back to top
+                    ⬆
                 </button>
             )
             }
