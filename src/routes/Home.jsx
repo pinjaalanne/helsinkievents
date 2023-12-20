@@ -22,7 +22,7 @@ function Home() {
     }
 
     useEffect(() => {
-        axios.get('https://api.hel.fi/linkedevents/v1/event/')
+        axios.get('https://api.hel.fi/linkedevents/v1/event/?days=30')
             .then((res) => {
                 console.log(res.data.data)
                 setEvents(res.data.data)
