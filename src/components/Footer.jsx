@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            <p>Copyright Helsinki Events 2023</p>
+            <p className="footertext">Copyright Helsinki Events 2023</p>
         </footer>
     );
 }

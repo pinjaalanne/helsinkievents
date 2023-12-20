@@ -8,6 +8,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./routes/Root";
 import Contact from "./routes/Contact";
 import SignUp from "./routes/SignUp";
+import About from "./routes/About";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       errorElement: <ErrorPage />,
       children: [
         { path: "/", element: <Home /> },
+        { path: "/about", element: <About /> },
         { path: "/contact", element: <Contact /> },
         { path: "/login", element: <LogIn /> },
         { path: "/signup", element: <SignUp /> },
