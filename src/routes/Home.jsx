@@ -32,27 +32,25 @@ function Home() {
     }, []);
 
     return (
-        <>
-            <main className="box">
-                <div className="placesContainer">
+        <main className="box">
+            <div className="placesContainer">
 
-                    <PlacesCard />
-                </div>
-                <h1 className="welcometext">Helsinki city events</h1>
-                {/* <div><h2 className="placestext">Don't Miss</h2></div> */}
-                <div className="searchwrap">
-                    <h3>Search for an event below</h3>
-                    <input type="text" onChange={searchHandler} id="search" placeholder="Search by date yyyy/mm/dd"></input>
-                </div>
-                <div className="cards">
-                    {events
-                        .filter((event) => event.start_time.toLowerCase().includes(search.toLowerCase()))
-                        .map((event) => <EventCard key={event.id} event={event} onclick={() => closeHandler(event.id)} />)}
+                <PlacesCard />
+            </div>
+            <h1 className="welcometext">Helsinki city events</h1>
+            {/* <div><h2 className="placestext">Don't Miss</h2></div> */}
+            <div className="searchwrap">
+                <h3>Search for an event below</h3>
+                <input type="text" onChange={searchHandler} id="search" placeholder="Search by date yyyy/mm/dd"></input>
+            </div>
+            <div className="cards">
+                {events
+                    .filter((event) => event.start_time.toLowerCase().includes(search.toLowerCase()))
+                    .map((event) => <EventCard key={event.id} event={event} onclick={() => closeHandler(event.id)} />)}
 
-                </div>
-                <BackToTop />
-            </main >
-        </>
+            </div>
+            <BackToTop />
+        </main >
     );
 }
 
